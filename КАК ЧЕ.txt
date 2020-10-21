@@ -1,0 +1,8 @@
+
+Конвертация сцсс
+1. Устфнови Koala http://koala-app.com/
+2. Запусти, и кинь туда папку с проэктом
+3. Коала будет конвертировать main.scss в main.css автоматически
+
+Документация компонентов
+https://www.figma.com/file/ApztYezEpF4csbyHqgqFGh/0-Indigo-suite?node-id=204%3A103652

@@ -1,3 +1,55 @@
 h1 {
     color:red;
 }
+
+// Typography
+@mixin heading-18 {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+@mixin heading-16 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@mixin body-14 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+@mixin shift-13 {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+// Colors
+$b5: rgba(0,0,0,0.05);
+$b10:rgba(0,0,0,0.10);
+$b17:rgba(0,0,0,0.17);
+$b38:rgba(0,0,0,0.38);
+$b54:rgba(0,0,0,0.54);
+$b87:rgba(0,0,0,0.87);
+$w0: rgba(0,0,0,0);
+$w14:rgba(255,255,255,0.14);
+$w24:rgba(255,255,255,0.24);
+$w50:rgba(255,255,255,0.50);
+$w70:rgba(255,255,255,0.70);
+$w:rgba(255,255,255,1.00);
+$brand:rgba(0,0,51,1.00);
+$blue:rgba(51,102,255,1.00);
+$blue30:rgba(58,151,255,0.30);
+$red: rgba(255,75,60,1.00);
+$yellow:rgba(255,200,0,1.00);
+$green:rgba(100,170,45,1.00);
+$aa:rgba(217,0,0,1.00);
+$bb:rgba(34,102,0,1.00);
+$cc:rgba(0,38,153,1.00);
+$dd:rgba(89,0,153,1.00);
+$ee:rgba(230,92,23,1.00);
+$ff:
+$gg:
+$
+@mixin shadow {
+    box-shadow: 0px 1px 3px $b17;
+}
